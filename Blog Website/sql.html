@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <div class="topic-container">
+        <h2 class="topic-title">SQL (Structured Query Language)</h2>
+        <p class="topic-description">
+            SQL is a standard language for managing and manipulating relational databases. It is used to query, insert, update, and delete data in a database.
+        </p>
+        <p class="topic-description">
+            SQL is essential for developers who work with relational databases, as it allows them to interact with data, perform complex queries, and maintain the integrity of the database.
+        </p>
+        <ul class="list-style">
+            <li><strong>Basic SQL Commands:</strong></li>
+            <ul>
+                <li><code>SELECT</code> - Retrieve data from a database</li>
+                <li><code>INSERT</code> - Insert data into a table</li>
+                <li><code>UPDATE</code> - Modify existing data</li>
+                <li><code>DELETE</code> - Delete data from a table</li>
+            </ul>
+            <li><strong>SQL Joins:</strong></li>
+            <ul>
+                <li><code>INNER JOIN</code> - Returns records that have matching values in both tables</li>
+                <li><code>LEFT JOIN</code> - Returns all records from the left table, and the matched records from the right table</li>
+                <li><code>RIGHT JOIN</code> - Returns all records from the right table, and the matched records from the left table</li>
+            </ul>
+        </ul>
+        <p class="topic-description">
+            Example of a basic SQL query:
+        </p>
+        <pre class="code-block">
+    SELECT first_name, last_name
+    FROM employees
+    WHERE department = 'Sales';
+        </pre>
+    </div>
+</body>
+</html>

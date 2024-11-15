@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <div class="topic-container">
+        <h2 class="topic-title">Node.js</h2>
+        <p class="topic-description">
+            Node.js is an open-source, cross-platform runtime environment that allows developers to run JavaScript on the server-side. It was created by Ryan Dahl in 2009 and is built on Google Chrome's V8 JavaScript engine.
+        </p>
+        <p class="topic-description">
+            Node.js is commonly used for building scalable, real-time web applications. Its non-blocking, event-driven architecture allows for handling many concurrent connections with high efficiency, making it ideal for I/O-heavy applications like chat applications and APIs.
+        </p>
+        <ul class="list-style">
+            <li><strong>Key Features of Node.js:</strong></li><br>
+            <ul>
+                <li>Non-blocking, asynchronous I/O operations</li><br>
+                <li>Single-threaded event loop for concurrency</li><br>
+                <li>Large ecosystem of open-source packages (via npm)</li><br>
+                <li>Ideal for building APIs and real-time applications (e.g., chat, streaming)</li><br>
+            </ul>
+            <li><strong>Common Node.js Frameworks:</strong></li><br>
+            <ul>
+                <li><code>Express.js</code> - A fast, minimalist framework for building APIs.</li><br>
+                <li><code>Socket.io</code> - A library for real-time web applications.</li><br>
+                <li><code>Hapi.js</code> - A framework for building robust, enterprise-grade APIs.</li><br>
+            </ul>
+        </ul>
+        <p class="topic-description">
+            Example of a simple Node.js server:
+        </p>
+        <pre class="code-block">
+    const http = require('http');
+    
+    const server = http.createServer((req, res) => {
+        res.writeHead(200, { 'Content-Type': 'text/plain' });
+        res.end('Hello, Node.js!');
+    });
+    
+    server.listen(3000, () => {
+        console.log('Server is running on port 3000');
+    });
+        </pre>
+    </div>
+</body>
+</html>

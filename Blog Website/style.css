@@ -1,0 +1,463 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  float: left;
+  width: 100%;
+  height: 35px;
+  margin-bottom: 50px;
+  margin-top: -40px;
+}
+.brand {
+  float: left;
+}
+i {
+  position: absolute;
+}
+.nav {
+  float: left;
+}
+.header h1 {
+  font-family: "Rubik Glitch", system-ui;
+  font-weight: 400;
+  font-size: 30px;
+  color: grey;
+  letter-spacing: 4px;
+}
+.h404 {
+  color: red;
+}
+
+.header ul li {
+  list-style-type: none;
+  float: left;
+  padding: 20px;
+  margin-left: 50px;
+}
+li a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(2, 20, 40);
+  font-family: Arial, sans-serif;
+}
+.header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brand {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+.i {
+  position: absolute;
+ padding-top:8px ;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+.header h1 {
+  font-family: "Rubik Glitch", system-ui;
+  font-weight: 400;
+  font-size: 30px;
+  color: grey;
+  letter-spacing: 4px;
+  margin: 0px;
+}
+.h404 {
+  color: red;
+}
+.h404:hover {
+  color: rgb(16, 239, 157);
+}
+.header ul {
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+  display: flex;
+}
+.header ul li {
+  margin-left: 50px;
+}
+li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+}
+li a:hover {
+  color: rgb(255, 0, 0);
+}
+.i {
+  position: absolute;
+  top: 30px;
+}
+.secondline h1{
+    float: left;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family:Papyrus;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+}
+.first {
+    box-shadow: 1px 1px 2px white;
+    width: 23%;
+    height: 400px;
+    float: left;
+    margin: 1%;
+    border-radius: 10px;
+    background-image: url(C.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size:0px;
+}
+.text{
+    padding-top: 40%;
+    color: white;
+}
+.first:hover{
+    box-shadow: 5px 5px 10px gray;
+    opacity: 0.8;
+      background-image:linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.8)), url(C.jpg);
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.second {
+    box-shadow: 1px 1px 2px white;
+    width: 23%;
+    height: 400px;
+    float: left;
+    margin: 1%;
+    border-radius: 10px;
+    background-image: url(C++.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size:0px;
+}
+.second:hover{
+    box-shadow: 5px 5px 10px gray;
+    opacity: 0.8;
+      background-image:linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.8)), url(C++.jpg);
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.third {
+    box-shadow: 1px 1px 2px white;
+    width: 23%;
+    height: 400px;
+    float: left;
+    margin: 1%;
+    border-radius: 10px;
+    background-image: url(html.png);
+    background-size: cover;
+    background-position: center;
+    font-size:0px;
+}
+
+
+.third:hover{
+    box-shadow: 5px 5px 10px gray;
+    opacity: 0.8;
+      background-image:linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.8)), url(html.png);
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+.fourth {
+    box-shadow: 1px 1px 2px white;
+    width: 23%;
+    height: 400px;
+    float: left;
+    margin: 1%;
+    border-radius: 10px;
+    background-image: url(css.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size:0px;
+}
+.fourth:hover{
+    box-shadow: 5px 5px 10px gray;
+    opacity: 0.8;
+      background-image:linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.8)), url(css.jpg);
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fifth {
+    box-shadow: 1px 1px 2px white;
+    width: 23%;
+    height: 400px;
+    float: left;
+    margin: 1%;
+    border-radius: 10px;
+    background-image: url(js.png);
+    background-size: cover;
+    background-position: center;
+    font-size:0px;
+}
+.fifth:hover{
+    box-shadow: 5px 5px 10px gray;
+    opacity: 0.8;
+      background-image:linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.8)), url(js.png);
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.six {
+    box-shadow: 1px 1px 2px white;
+    width: 23%;
+    height: 400px;
+    float: left;
+    margin: 1%;
+    border-radius: 10px;
+    background-image: url(react.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size:0px;
+}
+.six:hover{
+    box-shadow: 5px 5px 10px gray;
+    opacity: 0.8;
+      background-image:linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.8)), url(react.jpg);
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.seven {
+    box-shadow: 1px 1px 2px white;
+    width: 23%;
+    height: 400px;
+    float: left;
+    margin: 1%;
+    border-radius: 10px;
+    background-image: url(sql.png);
+    background-size: cover;
+    background-position: center;
+    font-size:0px;
+}
+.seven:hover{
+    box-shadow: 5px 5px 10px gray;
+    opacity: 0.8;
+      background-image:linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.8)), url(sql.png);
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.eight {
+    box-shadow: 1px 1px 2px white;
+    width: 23%;
+    height: 400px;
+    float: left;
+    margin: 1%;
+    border-radius: 10px;
+    background-image: url(py.png);
+    background-size: cover;
+    background-position: center;
+    font-size:0px;
+}
+.eight:hover{
+    box-shadow: 5px 5px 10px gray;
+    opacity: 0.8;
+      background-image:linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.8)), url(py.png);
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nine {
+    box-shadow: 1px 1px 2px white;
+    width: 23%;
+    height: 400px;
+    float: left;
+    margin: 1%;
+    border-radius: 10px;
+    background-image: url(php.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size:0px;
+}
+.nine:hover{
+    box-shadow: 5px 5px 10px gray;
+    opacity: 0.8;
+      background-image:linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.8)), url(php.png);
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.ten {
+    box-shadow: 1px 1px 2px white;
+    width: 23%;
+    height: 400px;
+    float: left;
+    margin: 1%;
+    border-radius: 10px;
+    background-image: url(node.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size:0px;
+}
+.ten:hover{
+    box-shadow: 5px 5px 10px gray;
+    opacity: 0.8;
+      background-image:linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.8)), url(node.png);
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.eleven {
+    box-shadow: 1px 1px 2px white;
+    width: 23%;
+    height: 400px;
+    float: left;
+    margin: 1%;
+    border-radius: 10px;
+    background-image: url(git.png);
+    background-size: cover;
+    background-position: center;
+    font-size:0px;
+}
+.eleven:hover{
+    box-shadow: 5px 5px 10px gray;
+    opacity: 0.8;
+      background-image:linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.8)), url(git.png);
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.twelve {
+  box-shadow: 1px 1px 2px white;
+    width: 23%;
+    height: 400px;
+    float: left;
+    margin: 1%;
+    border-radius: 10px;
+    background-image: url(ai.png);
+    background-size: cover;
+    background-position: center;
+    font-size:0px;
+}
+.twelve:hover{
+    box-shadow: 1px 1px 17px white;
+    opacity: 0.8;
+      background-image:linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.8)), url(ai.png);
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer{
+  position: absolute;
+    margin-top: 95%;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    color: black;
+    font-family:Papyrus;
+    font-size: 15px;
+    background-color: white;
+}
+
+
+
+/* Language pages */
+  .body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 40px;
+        }
+        .topic-container {
+            background-color: #fff;
+            margin-bottom: 30px;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        .topic-title {
+            font-size: 2rem;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        .topic-description {
+            font-size: 1.1rem;
+            color: #34495e;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+        .list-style {
+            margin-left: 20px;
+        }
+        .code-block {
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: Consolas, "Courier New", monospace;
+            color: #e74c3c;
+        }
+        .important {
+            color: #e67e22;
+            font-weight: bold;
+        }

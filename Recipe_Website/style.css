@@ -1,0 +1,352 @@
+* {
+    margin: 2px;
+    padding: 0px;
+}
+
+.header {
+    margin-top: 20px;
+    border-radius: 5px;
+margin-bottom: 30px;
+    height: 45px;
+position: sticky;
+top: 0;
+padding-top: 5px;
+background-color: white;
+}
+
+.logo {
+    float: left;
+    font-family: Papyrus, fantasy;
+    margin-right: 400px;
+    margin-left: 40px;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    color: crimson;
+}
+
+span {
+    font-family: cursive;
+}
+
+.nav{
+    margin-left: 800px;
+}
+.nav li {
+    list-style-type: none;
+    float: left;
+    margin-top: 3px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+a {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding-top: 2px;
+    font-size: 20px;
+    padding-bottom: 3px;
+
+
+}
+
+a:hover {
+    border-bottom: 3px solid aquamarine;
+    color: red;
+}
+
+i {
+    margin-top: 15px;
+}
+
+.heart {
+    margin-left: 5px;
+    font-size: 30px;
+    margin-top: 5px;
+    opacity: 0.5;
+    margin-right: 4px;
+}
+
+.second-line {
+
+    padding-left: 50px;
+    margin-left: 17%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    position: relative;
+
+
+}
+.cursive-text{
+    font-family: Papyrus;
+    font-size: 40px;
+    color: brown;
+}
+
+
+.photo {
+    width: 100%;
+    height: 100px;
+
+}
+
+
+.photo1 {
+    background-color: aqua;
+    width: 23%;
+    height: 400px;
+    float: left;
+    margin: 1%;
+    border-radius: 10px;
+    background-image: url(indian-sweet-371357_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 0px;
+    
+}
+
+.photo2 {
+    background-color: aqua;
+    width: 23%;
+    height: 400px;
+    float: left;
+    margin: 1%;
+    border-radius: 10px;
+    background-image: url(pizza-3007395_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size:0px;
+}
+
+.photo3 {
+    background-color: aqua;
+    width: 23%;
+    height: 400px;
+    float: left;
+    margin: 1%;
+    border-radius: 10px;
+    background-image: url(cupcake-8215179_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size:0px;
+}
+
+.photo4 {
+    background-color: aqua;
+    width: 23%;
+    height: 400px;
+    float: left;
+    margin: 1%;
+    border-radius: 10px;
+    background-image: url(salmon-518032_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size:0px;
+    margin-top: -10px;
+}
+
+.photo1:hover {
+    box-shadow: 5px 5px 10px gray;
+    opacity: 0.8;
+    color: white;
+      background-image:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)), url(indian-sweet-371357_1920.jpg);
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.photo2:hover {
+    box-shadow: 5px 5px 10px gray;
+    opacity: 0.8;
+      background-image:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)), url(pizza-3007395_1920.jpg);
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.photo3:hover {
+    box-shadow: 5px 5px 10px gray;
+    opacity: 0.8;
+      background-image:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)), url(cupcake-8215179_1920.jpg);
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.photo4:hover {
+    box-shadow: 5px 5px 10px gray;
+    opacity: 0.8;
+      background-image:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)), url(salmon-518032_1920.jpg);
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.photo_1{
+    width: 100%;
+    height: 100px;
+   
+}
+.photo5 {
+    background-color: aqua;
+    width: 23%;
+    height: 400px;
+    float: left;
+    margin: 1%;
+    border-radius: 10px;
+    background-image: url(ai-generated-8276129_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 0px;
+}
+
+.photo6 {
+    background-color: aqua;
+    width: 23%;
+    height: 400px;
+    float: left;
+    margin: 1%;
+    border-radius: 10px;
+    background-image: url(bowl-8991043_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size:0px;
+}
+
+.photo7 {
+    background-color: aqua;
+    width: 23%;
+    height: 400px;
+    float: left;
+    margin: 1%;
+    border-radius: 10px;
+    background-image: url(shree-iyer-jZaYAd6CqOo-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size:0px;
+}
+
+.photo8 {
+    background-color: aqua;
+    width: 23%;
+    height: 400px;
+    float: left;
+    margin: 1%;
+    border-radius: 10px;
+    background-image: url(apple-pie-5479993_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size:0px;
+}
+
+.photo5:hover {
+    box-shadow: 5px 5px 10px gray;
+    opacity: 0.8;
+    background-image:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)), url(ai-generated-8276129_1920.jpg);
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.photo6:hover {
+    box-shadow: 5px 5px 10px gray;
+    opacity: 0.8;
+    background-image:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)), url(bowl-8991043_1920.jpg);
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.photo7:hover {
+    box-shadow: 5px 5px 10px gray;
+    opacity: 0.8;
+    background-image:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)), url(shree-iyer-jZaYAd6CqOo-unsplash.jpg);
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.photo8:hover {
+    box-shadow: 5px 5px 10px gray;
+    opacity: 0.8;
+    background-image:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)), url(apple-pie-5479993_1920.jpg);
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.footer{
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size:10px;
+    width: 100%;
+    height: 30px;
+
+    padding-top: 16px;
+}
+
+/* .photo h2{
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+} */
+
+.d{
+    margin-top: 100px;
+    border-bottom: none;
+}
+
+
+
+/* Gulab Jamun */
+.recipe-item img{
+    width: 50%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+img{
+    margin-left: 370px;
+    border-radius: 20px;
+box-shadow: 2px 5px 20px gray;
+}
+
+.recipe-details{
+    margin-left: 200px;
+}
+.recipe-details li {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.recipe-details ul,
+.recipe-details ol {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+
+.recipe-item:hover .recipe-details {
+    opacity: 1;
+}

@@ -1,0 +1,317 @@
+*{
+    margin: 10px;
+}
+
+.carousel-control-prev{
+    font-weight: bold;
+    font-size: 100px;
+}
+li:hover{
+    border-bottom: 2px solid mediumaquamarine;
+}
+.navbar{
+    position:sticky;
+    top: 0;
+    z-index:1;
+    width: 100%;
+    height: 59px;
+}
+.nav-item{
+    margin-left: 20px;
+    padding-left: 20px;
+}
+#carouselExampleCaptions .carousel-item img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    object-position: center;
+   background-image: linear-gradient(rgba(255,255,255,1.0),rgba(255,255,255,1.0));
+}
+
+.carousel-inner .carousel-item{
+    width: 100%;
+    height: 100vh;
+   
+}
+i{
+    position: absolute;
+    top: 12px;
+
+    
+}
+a{
+    margin-left: 20px;
+}
+i.fa-hourglass-start{
+    top: 10px;
+}
+Document
+i.fa-handshake-angle{
+    transform: rotate(45deg);
+}
+
+.navbar-brand{
+animation: change 10s linear infinite;
+}
+
+@keyframes change {
+    100%{
+        filter:hue-rotate(360deg);
+    }
+}
+
+.font_on_image
+{
+    font-size: 3rem;
+    color: black;
+    
+}
+.font_on_image p,h5{
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    color: white;
+}
+.search:hover{
+background-color: gray;
+color: white;
+}
+d-flex.search_btn:hover{
+    background-color: greenyellow;
+    color: black;
+    }
+.page-link{
+    text-decoration: none;
+}
+.bottom-names{
+    float: left;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 2px gray;
+    margin-left: 30px;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    padding-left: 5px;
+    padding-top: 15px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+/* Beauty Page */
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family:monospace
+}
+#line{
+    border-bottom: 2px solid aquamarine;
+}
+.container{
+    float: left;
+}
+
+.img1{
+    width: 40%;
+    height: 500px;
+    border-radius: 20px;
+    background-image: url(b1.jpg);
+    background-position: center;
+    background-size: cover;
+    float: left;
+    box-shadow: 2px 2px 50px gray;
+    margin: 5%;
+}
+
+.text1{
+    width: 40%;
+    height: 500px;
+    float: left;
+  padding-top: 55px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.beautyhome{
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.img2{
+    width: 40%;
+    height: 500px;
+    border-radius: 20px;
+    background-image: url(perfume.jpg);
+    background-position: center;
+    background-size: cover;
+    float: left;
+    box-shadow: 4px 4px 70px gray;
+    margin: 5%;
+    margin-top: 100px;
+}
+
+.text2{
+    margin-left: 30px;
+    width: 40%;
+    height: 500px;
+    float: left;
+  padding-top: 55px;
+  font-family: 'Courier New', Courier, monospace;
+}
+dt{
+    font-weight: bold;
+}
+.text3{
+    width: 40%;
+    height: 500px;
+    float: left;
+  padding-top: 55px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.img3{
+    width: 40%;
+    height: 500px;
+    border-radius: 20px;
+    background-image: url(shirt.jpg);
+    background-position: center;
+    background-size: cover;
+    float: left;
+    box-shadow: 4px 4px 70px gray;
+    margin: 5%; 
+    padding-top: 170px;
+}
+.text4{
+    margin-left: 30px;
+    width: 40%;
+    height: 500px;
+    float: left;
+  padding-top: 55px;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+.img-4{
+    width: 40%;
+    height: 500px;
+    border-radius: 20px;
+    background-image: url(jeans.jpg);
+    background-position: center;
+    background-size: cover;
+    float: left;
+    box-shadow: 4px 4px 70px gray;
+    margin: 5%;
+}
+
+.name{
+    font-family:'FontAwesome';
+    letter-spacing: 4px;
+}
+
+.img5{
+  
+        width: 40%;
+        height: 500px;
+        border-radius: 20px;
+        background-image: url(hp.jpg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        float: left;
+        box-shadow: 4px 4px 70px gray;
+        margin: 5%; 
+        padding-top: 170px;
+    
+}
+
+.img7{
+  
+    width: 40%;
+    height: 500px;
+    border-radius: 20px;
+    background-image: url(lenovo.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    box-shadow: 4px 4px 70px gray;
+    margin: 5%;
+    margin-left: 130px; 
+    padding-top: 170px;
+
+}
+
+
+.kitchen1{
+  
+    width: 40%;
+    height: 500px;
+    border-radius: 20px;
+    background-image: url(clean-kanteen-4423681_1920.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    box-shadow: 4px 4px 70px gray;
+    margin: 5%; 
+    padding-top: 170px;
+
+}
+
+
+.kitchen2{
+  
+    width: 40%;
+    height: 500px;
+    border-radius: 20px;
+    background-image: url(kitchen1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    box-shadow: 4px 4px 70px gray;
+    margin: 5%;
+    margin-left: 130px; 
+    padding-top: 170px;
+
+}
+
+.iphone{
+  
+    width: 40%;
+    height: 500px;
+    border-radius: 20px;
+    background-image: url(iphone.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    box-shadow: 4px 4px 70px gray;
+    margin: 5%;
+    margin-left: 130px; 
+    padding-top: 170px;
+
+}
+.oppo{
+  
+    width: 40%;
+    height: 500px;
+    border-radius: 20px;
+    background-image: url(oppp.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    box-shadow: 4px 4px 70px gray;
+    margin: 5%;
+   
+    padding-top: 170px;
+
+}
+
+/* For Background image of header */
+.upppername{
+    background-image: url(sky-7232494_1920.jpg);
+}
+
+
+
+  

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artificial Intelligence</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <div class="topic-container">
+        <h2 class="topic-title">Artificial Intelligence (AI)</h2>
+        <p class="topic-description">
+            Artificial Intelligence (AI) refers to the simulation of human intelligence processes by machines, especially computer systems. These processes include learning, reasoning, and self-correction.
+        </p>
+        <p class="topic-description">
+            AI can be categorized into two main types: narrow AI (or weak AI), which is designed to perform specific tasks, and general AI (or strong AI), which has the ability to perform any intellectual task that a human can do.
+        </p>
+        <ul class="list-style">
+            <li><strong>Key Techniques in AI:</strong></li><br>
+            <ul>
+                <li>Machine Learning (ML)</li><br>
+                <li>Natural Language Processing (NLP)</li><br>
+                <li>Computer Vision</li><br>
+                <li>Robotics</li><br>
+                <li>Expert Systems</li><br>
+            </ul>
+            <li><strong>Popular AI Tools and Libraries:</strong></li><br>
+            <ul>
+                <li><code>TensorFlow</code> - A machine learning framework developed by Google.</li><br>
+                <li><code>PyTorch</code> - A deep learning library developed by Facebook.</li><br>
+                <li><code>OpenAI</code> - An AI research lab focused on creating general AI.</li><br>
+            </ul>
+        </ul>
+        <p class="topic-description">
+            Example of a simple AI application using machine learning:
+        </p>
+        <pre class="code-block">
+    import tensorflow as tf
+    from sklearn.datasets import load_iris
+    from sklearn.model_selection import train_test_split
+    from sklearn.preprocessing import StandardScaler
+    from sklearn.svm import SVC
+    
+    # Load Iris dataset
+    data = load_iris()
+    X = data.data
+    y = data.target
+    
+    # Split the data into training and test sets
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+    
+    # Standardize the data
+    scaler = StandardScaler()
+    X_train = scaler.fit_transform(X_train)
+    X_test = scaler.transform(X_test)
+    
+    # Train a Support Vector Classifier
+    model = SVC()
+    model.fit(X_train, y_train)
+    
+    # Test the model's accuracy
+    accuracy = model.score(X_test, y_test)
+    print(f"Accuracy: {accuracy:.2f}")
+        </pre>
+    </div>
+</body>
+</html>
