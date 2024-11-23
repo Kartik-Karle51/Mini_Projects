@@ -25,7 +25,9 @@ background-color: white;
     font-weight: bold;
     color: crimson;
 }
-
+.logo:hover{
+    color: rgb(89, 242, 191);
+}
 span {
     font-family: cursive;
 }

@@ -29,7 +29,7 @@ i {
   letter-spacing: 4px;
 }
 .h404 {
-  color: red;
+  color: rgb(17, 243, 202);
 }
 
 .header ul li {
@@ -45,11 +45,11 @@ li a {
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(2, 20, 40);
+  background-color: rgb(251, 104, 200);
   font-family: Arial, sans-serif;
 }
 .header {
-  background-color: #f0f0f0;
+  background-color: #fff;
   padding: 20px;
   width: 100%;
   height: 35px;
@@ -109,11 +109,15 @@ li a:hover {
 .secondline h1{
     float: left;
     width: 100%;
+    font-weight: 600;
     color: white;
     text-align: center;
     font-family:Papyrus;
     margin-bottom: 20px;
     letter-spacing: 4px;
+}
+.secondline h1 span{
+  color: rgb(17, 243, 202);
 }
 .first {
     box-shadow: 1px 1px 2px white;
@@ -126,7 +130,10 @@ li a:hover {
     background-size: cover;
     background-position: center;
     font-size:0px;
+    background-color:white;
 }
+
+
 .text{
     padding-top: 40%;
     color: white;
@@ -136,6 +143,7 @@ li a:hover {
     opacity: 0.8;
       background-image:linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.8)), url(C.jpg);
     text-align: center;
+    color: white;
     text-decoration: underline;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
@@ -151,6 +159,7 @@ li a:hover {
     background-size: cover;
     background-position: center;
     font-size:0px;
+    background-color:white;
 }
 .second:hover{
     box-shadow: 5px 5px 10px gray;
@@ -174,6 +183,7 @@ li a:hover {
     background-size: cover;
     background-position: center;
     font-size:0px;
+    background-color:white;
 }
 
 
@@ -201,6 +211,7 @@ li a:hover {
     background-size: cover;
     background-position: center;
     font-size:0px;
+    background-color:white;
 }
 .fourth:hover{
     box-shadow: 5px 5px 10px gray;
@@ -224,6 +235,7 @@ li a:hover {
     background-size: cover;
     background-position: center;
     font-size:0px;
+    background-color:white;
 }
 .fifth:hover{
     box-shadow: 5px 5px 10px gray;
@@ -247,6 +259,7 @@ li a:hover {
     background-size: cover;
     background-position: center;
     font-size:0px;
+    background-color:white;
 }
 .six:hover{
     box-shadow: 5px 5px 10px gray;
@@ -270,6 +283,7 @@ li a:hover {
     background-size: cover;
     background-position: center;
     font-size:0px;
+    background-color:white;
 }
 .seven:hover{
     box-shadow: 5px 5px 10px gray;
@@ -293,6 +307,7 @@ li a:hover {
     background-size: cover;
     background-position: center;
     font-size:0px;
+    background-color:white;
 }
 .eight:hover{
     box-shadow: 5px 5px 10px gray;
@@ -317,6 +332,7 @@ li a:hover {
     background-repeat: no-repeat;
     background-position: center;
     font-size:0px;
+    background-color:white;
 }
 .nine:hover{
     box-shadow: 5px 5px 10px gray;
@@ -327,6 +343,7 @@ li a:hover {
     text-decoration: underline;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
+
 }
 
 
@@ -342,6 +359,7 @@ li a:hover {
     background-repeat: no-repeat;
     background-position: center;
     font-size:0px;
+    background-color:white;
 }
 .ten:hover{
     box-shadow: 5px 5px 10px gray;
@@ -390,6 +408,7 @@ li a:hover {
     background-size: cover;
     background-position: center;
     font-size:0px;
+    background-color:white;
 }
 .twelve:hover{
     box-shadow: 1px 1px 17px white;
@@ -461,3 +480,28 @@ li a:hover {
             color: #e67e22;
             font-weight: bold;
         }
+
+
+
+
+        /* BACK button */
+
+      .backBTn{
+       margin-left: 90%;
+        background-color: #ee6969;
+        color: white;
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+    text-align: center;
+        padding: 10px;
+        font-size: 25px;
+      }
+
+      .backBTn a{
+        text-decoration: none;
+        color: white
+      }
+      .backBTn:hover{
+        background-color: #e74c3c;
+      }
